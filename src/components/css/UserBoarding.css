@@ -1,0 +1,341 @@
+.user-component{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: "Roboto Serif", serif;
+}
+
+.user-component > * {
+    margin: 0;
+    padding: 0;
+}
+
+/* User Component Heading CSS */
+
+.user-heading{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 25vh;
+    color: white;
+    /* To create a gradient to both left and right side from center */
+    background: linear-gradient(to right,rgba(1,41,27,1), rgba(10,10,9,1) 50%, rgba(1,41,27,1));
+    align-items: center;
+    justify-content: center;
+}
+
+.user-heading p:nth-child(1){
+    font-size: 0.6rem;
+}
+
+.user-heading i{
+    color: #02C573;
+    font-size: 0.3rem;
+    margin: 0 0.15rem;
+}
+
+.user-heading h3{
+    font-size: 1.6rem;
+}
+
+.user-heading p:nth-child(3){
+    font-size: 0.8rem;
+    text-align: center;
+    width: 40vw;
+}
+
+/* First Card CSS */
+
+.ai-solution{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 65vh;
+    justify-content: center;
+}
+
+.ai-solution > * {
+    margin: 0;
+    padding: 0;
+}
+
+.solution-container{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 80%;
+    margin-left: 12rem;
+}
+
+.solution-container > * {
+    margin: 0;
+    padding: 0;
+}
+
+.solution-top{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution-top > * {
+    margin: 0;
+    padding: 0;
+}
+
+.solution-top h1{
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+.solution-top p{
+    font-size: 0.7rem;
+    color: #333333;
+}
+
+.solution-bottom{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 75%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.solution-bottom > * {
+    margin: 0;
+    padding: 0;
+}
+
+.solution-card{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    height: 90%;
+    background-color: #F0F0F0;
+    cursor: pointer;
+}
+
+.solution-card > * {
+    margin: 0;
+    padding: 0;
+}
+
+.solution-card-top{
+    display: flex;
+    width: 100%;
+    height: 35%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.solution-card-top > * {
+    margin: 0;
+    padding: 0;
+}
+
+.card-icon{
+    color: #02C573;
+    font-size: 2.5rem;
+}
+
+.solution-card-top i{
+    font-size: 2.5rem;
+    display: none;
+}   
+
+
+
+.solution-card-bottom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 65%;
+}
+
+.solution-card-bottom > * {
+    margin: 0;
+    padding: 0;
+}
+
+.solution-card-bottom h4{
+    font-size: 1.15rem;
+    font-weight: 450;
+    padding: 0 1rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.6rem;
+}
+
+.solution-card-bottom p{
+    font-size: 0.7rem;
+    padding: 0 1rem;
+    color: #333333;
+    line-height: 1.3rem;
+}
+
+.solution-card:hover{
+    background-color: #02C573;
+    color: white;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+}
+
+.solution-card:hover .card-icon{
+    color: white;
+}
+
+.solution-card:hover p{
+    color: white;
+}
+
+.solution-card:hover i{
+    color: white;
+    display: block;
+}
+
+
+/* Second Card KYC CSS */
+
+.kyc{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.kyc > * {
+    margin: 0;
+    padding: 0;
+}
+
+.kyc-container{
+    height: 60%;
+    width: 70vw;
+    margin-left: 12rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #00C16B;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.kyc-container > * {
+    margin: 0;
+    padding: 0;
+}   
+
+.kyc-left{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 3rem 3rem 2rem;
+    justify-content: space-between;
+}
+
+.kyc-left > * {
+    margin: 0;
+    padding: 0;
+}
+
+.kyc-step{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.kyc-index{
+    background-color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.step-info{
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+}
+
+.step-info h5{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.step-info p{
+    color: #F3FFCB;
+    font-size: 0.5rem;
+}
+
+.kyc-center{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 2rem;
+    justify-content: space-between;
+}
+
+.kyc-center > * {
+    margin: 0;
+    padding: 0;
+}
+
+.kyc-center-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kyc-center-head h5{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+    color: white;
+}
+
+.kyc-center-head p{
+    font-size: 0.5rem;
+    color: #F3FFCB;
+}
+
+.kyc-center-icon{
+    font-size: 6rem;
+    color: white;
+    font-weight: 100;
+}
+
+.kyc-center-button{
+    width: 60%;
+    height: 13%;
+    background-color: #1A293C;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 0.65rem;
+    cursor: pointer;
+}
+
+.kyc-right{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.kyc-right img{
+    width: 100%;
+    height: 130%;
+}

@@ -1,0 +1,105 @@
+.footer-component{
+    font-family: "Roboto Serif", serif;
+    background-color: #000000;
+    width: 100vw;
+    height: 27vh;
+}
+
+/* Footer Top Part */
+
+.footer-top{
+    display: flex;
+    height: 10vh;
+    align-items: flex-end;
+}
+
+.footer-top-left {
+    margin-left: 12rem;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+  .footer-top-center{
+    display: flex;
+    width: 40vw;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .nav-links {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+  }
+
+  .footer-top-right{
+    display: flex;
+    width: 17vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 0.3rem;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 1rem;
+  }
+
+  .socials {
+    text-decoration: none;
+    border: none;
+    border-radius: 4rem;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.8rem;
+    color: white;
+    margin-left: 0.4rem;
+    width: 2vw;
+    height: 4vh;
+    background-color: #00C16A;
+  }
+
+  /* Footer Center Part */
+
+  .footer-center{
+    display: flex;
+    height: 12vh;
+    justify-content: center;
+    color: white;
+  }
+
+  .footer-contact{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  /* Footer Bottom Part */
+
+  .footer-bottom{
+    display: flex;
+    height: 5vh;
+  }
+
+  .footer-bottom-center{
+    display: flex;
+    margin-left: 12rem;
+    width: 72vw;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 0.6rem;
+  }
+
+  .footer-links {
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+  }
+
+  .footer-links:hover {
+    color: #00C16A;
+  }

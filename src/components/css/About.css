@@ -1,0 +1,438 @@
+.about-component{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: "Roboto Serif", serif;
+}
+
+.about-heading{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 25vh;
+    color: white;
+    /* To create a gradient to both left and right side from center */
+    background: linear-gradient(to right,rgba(1,41,27,1), rgba(10,10,9,1) 50%, rgba(1,41,27,1));
+    align-items: center;
+    justify-content: center;
+}
+
+.about-heading p:nth-child(1){
+    font-size: 0.6rem;
+}
+
+.about-heading i{
+    color: #02C573;
+    font-size: 0.3rem;
+    margin: 0 0.15rem;
+}
+
+.about-heading h3{
+    font-size: 1.6rem;
+}
+
+.about-heading p:nth-child(3){
+    font-size: 0.8rem;
+    text-align: center;
+    width: 40vw;
+}
+
+/* First and Third Card CSS */
+
+.provide{
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+}
+
+.provide-left{
+    display: flex;
+    flex-direction: column;
+    width: 37vw;
+    height: 60vh;
+    margin-left: 11rem;
+    justify-content: center;
+}
+
+/* Reset margin and padding for all child divs */
+.provide-left > * {
+    margin: 0; 
+    padding: 0;
+}
+
+.provide-left h2{
+    font-size: 2.3rem;
+    font-weight: 450;
+    letter-spacing: 0.05rem;
+}
+
+.provide-left p{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    line-height: 1.1rem;
+}
+
+.check-list{
+    color: #5C5C5C;
+    margin-bottom: -0.4rem;
+}
+
+.provide-left .ri-check-line{
+    background-color: transparent;
+    color: #02C573;
+    font-size: 1.1rem;
+}
+
+.find-more-btn{
+    color: white;
+    width: 9vw;
+    height: 6vh;
+    background-color: #02C573;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+
+
+.provide-right{
+    display: flex;
+    flex-direction: column;
+    width: 37vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.provide-right> * {
+    margin: 0;
+    padding: 0;
+}
+
+.provide-right-top{
+        width: 25vw;
+        height: 28vh;
+        background-color: #605F6F;
+        border-radius: 0.5rem;
+}
+
+.provide-right-bottom{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 25vw;
+    min-height: 10vh;
+}
+
+.provide-right-bottom h3{
+    color: #02C573;
+    font-size: 2rem;
+}
+
+.provide-right-bottom p{
+    color: #C1C1C1;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.right-bottom-right{
+    margin-right: 1.5rem;
+}
+
+
+/* Second Card CSS */
+
+.powered{
+    width: 100vw;
+    height: 85vh;
+    background-color: #F8F8F9;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.powered > * {
+    margin: 0;
+    padding: 0;
+}
+
+.powered-left{
+    width: 22vw;
+    height: 65vh;
+    margin-left: 12rem;
+}
+
+.powered-left-top{
+    height: 8%;
+}
+
+.powered-left-top{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    border: 1px solid gray;
+    border-bottom: hidden;
+}
+
+.powered-left-top p{
+    margin-top: 1.2rem;
+    color: #333333;
+}
+
+
+
+.powered-left-center{
+    height: 80%;
+    border: 1px solid gray;
+    border-top: hidden;
+    border-bottom: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.powered-left-center > * {
+    margin: 0;
+    padding: 0;
+}
+
+.powered-card{
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.powered-card section{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.powered-card section h6{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.powered-card section p{
+    font-size: 0.5rem;
+}
+
+.powered-left-bottom{
+    height: 12%;
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.powered-left-bottom h5{
+    color: #02C573;
+    font-size: 0.6rem;
+}
+
+.powered-left-bottom i{
+    font-size: 1rem;
+}
+
+
+
+.powered-right{
+    width: 50vw;
+    height: 65vh;
+}
+
+.powered-right-top{
+    height: 50%;
+}
+
+.powered-right-bottom{
+    background: url('./src/assets/14.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50%;
+    margin-top: 1.25rem;
+}
+
+.powered-right h1{
+    font-size: 2.3rem;
+    font-weight: 400;
+    width: 35vw;
+    margin-left: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.powered-right li{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    width: 35vw;
+    margin-left: 3rem;
+    color: #333333;
+}
+
+
+/* Sign Up Banner CSS */
+
+.signup-banner{
+    display: flex;
+    width: 100vw;
+    height: 25vh;
+    background-color: #02C573;
+}
+
+.signup-banner > * {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-left{
+    width: 35vw;
+    height: 100%;
+    display: flex;
+    margin-left: 12rem;
+    align-items: center;
+}
+.banner-left h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-right: 2rem;
+}
+
+.signup{
+    font-weight: 600;
+}
+
+.banner-right{
+    width: 35vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-right h4{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.signup-btn{
+    background-color: black;
+    height: 6vh;
+    width: 9vw;
+    color: white;
+    font-size: 0.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-btn i{
+    font-size: 1.1rem;
+}   
+
+/* Blogs Card CSS */
+
+.blogs{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.blogs-container{
+    height: 80%;
+    width: 70vw;
+    margin-left: 12rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs-top{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.blogs-top h6{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.blogs-top a{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: black;
+}
+
+.blogs-top a:hover{
+    color: #02C573;
+}
+
+.blogs-bottom{
+    height: 90%;
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+}
+
+.blogs-bottom-left, .blogs-bottom-center, .blogs-bottom-right{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.content-top{
+    height: 50%;
+    background-color: #E5E5E6;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.content-bottom{
+    padding: 1rem;
+}
+
+.content-bottom .ri-checkbox-blank-circle-fill{
+    color: #615F6F;
+    font-size: 0.3rem;
+    margin: 0 0.3rem;
+}
+
+.group{
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.group span{
+    color: #615F6F;
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+.title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0.7rem 0;
+}
+
+.content{
+    font-size: 0.65rem;
+    color: #615F6F;
+}
+
+
