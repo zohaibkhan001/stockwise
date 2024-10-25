@@ -36,7 +36,7 @@ function Navbar() {
             </div>
             <div className="navbar-bottom">
                 <div className="navbar-bottom-left">
-                <a className="brandLogo" href="">STOCK<span className="brand">WISE</span></a>
+                <Link className="brandLogo" to="/">STOCK<span className="brand">WISE</span></Link>
                 </div>
                 <div className="navbar-bottom-center">
                     <Link className="nav-links" to="/">HOME</Link>

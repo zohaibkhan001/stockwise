@@ -7,7 +7,7 @@ function Footer() {
         <div className='footer-component'>
             <div className="footer-top">
                 <div className="footer-top-left">
-                <a className="brandLogo" href="">STOCK<span className="brand">WISE</span></a>
+                <Link className="brandLogo" to="/">STOCK<span className="brand">WISE</span></Link>
                     {/* <h3 className='company-name'>STOCK<span className="brand">WISE</span></h3> */}
                 </div>
                 <div className="footer-top-center">
