@@ -6,7 +6,7 @@ function Message() {
     <div className='message-component'>
       <div className="message-left">
             <div className="map">
-                <img src='./src/assets/0.png'></img>
+                <img src='/assets/0.png'></img>
             </div>
             <div className="map-foot">
                 <h1>Transform Your Investment with

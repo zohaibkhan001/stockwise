@@ -254,7 +254,7 @@
 }
 
 .powered-right-bottom{
-    background: url('./src/assets/14.png');
+    background: url('/assets/14.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 50%;

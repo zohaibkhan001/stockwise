@@ -133,7 +133,7 @@ function UserBoarding() {
                         <button className='kyc-center-button'>Get Started</button>
                     </div>
                     <div className="kyc-right">
-                        <img src="./src/assets/15.png"></img>
+                        <img src="/assets/15.png"></img>
                     </div>
                 </div>
             </div>

@@ -99,95 +99,95 @@ function Landing() {
                         <p>TRUSTED BY AMAZING COMPANIES <span>WORLDWIDE</span></p>
                     </div>
                     <div className={`companies ${isActive ? '' : 'notActive'}`}>
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
 
-                        <img className='companies-logo' src='./src/assets/5.png'></img>
-                        <img className='companies-logo' src='./src/assets/6.png'></img>
-                        <img className='companies-logo' src='./src/assets/7.png'></img>
-                        <img className='companies-logo' src='./src/assets/8.png'></img>
+                        <img className='companies-logo' src='/assets/5.png'></img>
+                        <img className='companies-logo' src='/assets/6.png'></img>
+                        <img className='companies-logo' src='/assets/7.png'></img>
+                        <img className='companies-logo' src='/assets/8.png'></img>
                     </div>
                 </div>
             </div>
@@ -195,7 +195,7 @@ function Landing() {
             <div className="job-section">
                 <div className="job-top">
                     <div className="job-top-left">
-                        <img src='./src/assets/2.png'></img>
+                        <img src='/assets/2.png'></img>
                     </div>
                     <div className="job-top-right">
                         <div className="job-right-top"><p>OUR MISSION</p></div>
@@ -211,7 +211,7 @@ function Landing() {
 
                 <div className="job-center">
                     <div className="job-center-left">
-                        <img src='./src/assets/11.png'></img>
+                        <img src='/assets/11.png'></img>
                     </div>
                     <div className="job-center-right">
                         <div className="job-center-top">

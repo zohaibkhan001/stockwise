@@ -768,7 +768,7 @@
 
 .bottom-end-right{
     width: 40%;
-    background: url('./src/assets/10.png');
+    background: url('/assets/10.png');
     background-size: cover;
 }
 
